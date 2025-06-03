@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://sdmntpritalynorth.oaiusercontent.com/files/00000000-b514-6246-9cb5-f7e0b6e24f37/raw?se=2025-06-03T21%3A51%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=be904d47-6ac4-5bb1-ab40-7b4dae6ce347&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-03T18%3A07%3A25Z&ske=2025-06-04T18%3A07%3A25Z&sks=b&skv=2024-08-04&sig=n1atZapG0ULPTlZBcnqF/M2ko7rOA/rT88lkBysSSl4%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+ul,
+ol{
+  font-size: 12px;
+  
+}
+.recipe-row{
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+
+}
