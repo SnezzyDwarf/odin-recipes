@@ -1,7 +1,5 @@
-body {
-  background-image: url('https://sdmntprwestus2.oaiusercontent.com/files/00000000-fca8-61f8-bd0a-c014fd316ce5/raw?se=2025-06-08T18%3A16%3A51Z&sp=r&sv=2024-08-04&sr=b&scid=8081f3c4-587f-5c3a-991d-939f0613e020&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-08T00%3A14%3A55Z&ske=2025-06-09T00%3A14%3A55Z&sks=b&skv=2024-08-04&sig=WF/6XDqM9zLanpVCqgr57yUKHCNp7nVQmZ8kzjDG2aE%3D');
-
-  background-repeat: no-repeat;
+body {  
+  background-image: url('../images recipe/background.png');
   background-position: center;
   background-attachment: fixed;
   background-size: cover; 
@@ -17,17 +15,29 @@ ul,
 ol{
   font-size: 18px;
   font-family: Caesar Dressing;
-  
-}
+  color: rgb(223, 172, 94); 
+  }
+
+  h2,
+  h3{
+    color: rgb(223, 172, 94); 
+    font-family: UnifrakturCook;
+
+  }
 .recipe-collum{
   display: flex;
   flex-direction: column;  
-  align-items: center;
-  border: none;
+  align-items: center;  
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-  width: 300px;
+  flex: 1;
+  min-width: 300px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(46, 26, 18);
+  width: 100%;
+  border: 10px solid rgb(244, 160, 56);
+  border-radius: 8px;
 
 }
 
@@ -43,11 +53,7 @@ footer{
   justify-content: space-between;
   width: 100%;   
 }
-
-.rights{
- text-align: end;
-}
-
+ 
 .vicking-img{
    width: 200px;
    object-fit: cover;
